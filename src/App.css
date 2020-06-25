@@ -1,38 +1,40 @@
-.App {
+html {
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url('./lit.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+h4 {
+  font-weight: 400;
+  color: grey;
+}
+
+.modal-footer .btn {
+  margin: 46px 16px;
+  border-radius: 25px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.modal {
+  border: 2px solid blue;
+}
+.modal .modal-footer {
+  background: #272727;
+  height: 114px;
+}
+.collection {
+  margin: 9.5rem 0 0rem 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.modal .modal-content {
+  text-align: center;
+  background: #272727;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type=text]{
+  color: #fff;
 }

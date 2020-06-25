@@ -1,0 +1,42 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Hard drive failed on Workstation 001",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2020-06-25T13:28:24.027Z"
+    },
+    {
+      "message": "Printer in Accounting Department fixed!",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-06-25T00:53:47.020Z",
+      "id": 2
+    },
+    {
+      "message": "hard drive fixed",
+      "attention": false,
+      "tech": "Sarah Wilson",
+      "date": "2020-06-25T13:26:13.042Z",
+      "id": 3
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Wilson",
+      "id": 3
+    }
+  ]
+}
